@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstore.ownerController">
+   <children>
+      <Button layoutX="50.0" layoutY="42.0" mnemonicParsing="false" onAction="#switchToOwnerBookView" prefHeight="177.0" prefWidth="235.0" text="Books">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Button>
+      <Button layoutX="124.0" layoutY="254.0" mnemonicParsing="false" onAction="#logout" prefHeight="101.0" prefWidth="353.0" text="Logout" />
+      <Button layoutX="319.0" layoutY="42.0" mnemonicParsing="false" onAction="#switchToOwnerCustomerView" prefHeight="177.0" prefWidth="235.0" text="Customers Panel">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
