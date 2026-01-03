@@ -34,7 +34,7 @@ flowchart TD
     Customer[Customer Interface]
     GUI[JavaFX GUI]
     Controller[Transaction & Inventory Controller]
-    Inventory[Book Inventory (Database)]
+    Inventory[Book Inventory Database]
     Reward[Reward State System]
     Receipt[Receipt / Billing]
 
@@ -43,3 +43,4 @@ flowchart TD
     Controller --> Inventory
     Controller --> Reward
     Controller --> Receipt
+
